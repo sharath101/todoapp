@@ -2,9 +2,27 @@
 <html>
 <head>
     <title>Todo APP</title>
+    <link rel="stylesheet" href="../css/style.css" />
+
 </head>
 
 <body>
-Write your code here
+    <header>
+        <h1> TODO APP </h1>
+        <input class="textBox"type = "text" placeholder = "Add todo">
+        <input id="btn" type="button" value="Add">
+    </header>
+    <div class = "allTabs">
+        <button class="tab" >All</button>
+        <button class="tab" >Completed</button>
+        <button class="tab" >Pending</button>
+    </div>
+    <ul>
+        <li class = "cross item" >Buy the milk</li>
+        <li class = "item">Rent a car</li>
+        <li class = "item">Feed the cat</li>
+    </ul>
+    
+    <script src="js/todo.js"></script>
 </body>
 </html>

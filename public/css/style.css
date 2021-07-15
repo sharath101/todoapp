@@ -1,1 +1,69 @@
 /*write css here*/
+body{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+header{
+    background: lightskyblue;
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    height: 100px;
+}
+
+h1{
+    margin:0px;
+}
+
+.textBox{
+    margin-right: 0px;
+    padding-right: 0px;
+    width : 60%;
+    height : 30px;
+    margin-top: 10px;
+}
+
+#btn{
+    margin-left: 0px;
+    padding-left: 0px;
+    width : 10%;
+    height : 35px;
+}
+
+.allTabs{
+    display: flex;
+}
+
+.tab{
+    width: 33%;
+    height: 40px;
+    background: lightblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+ul{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+ul li {
+    cursor: pointer;
+    padding: 12px 8px 12px 0px;
+    background: #eee;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+ul li.cross {
+    background: #aaa;
+    text-decoration: line-through;
+}
+
+ul li:hover{
+    background: #ddd;
+}
